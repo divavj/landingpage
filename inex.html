@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERVIX - Coming Soon</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400i,700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7149C6;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .subscribe {
+            margin-top: 30px;
+        }
+
+        .subscribe input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .subscribe input[type="submit"] {
+            background-color: #FC2947;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .subscribe input[type="submit"]:hover {
+            background-color: #FE6244;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HERVIX - Coming Soon</h1>
+        <p>Our website is under construction. We'll be back soon!</p>
+
+        <div class="subscribe">
+            <p>Subscribe to get notified when we launch:</p>
+            <form>
+                <input type="email" placeholder="Your Email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
